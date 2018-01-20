@@ -1,0 +1,17 @@
+[package]
+name = "drats"
+version = "0.0.1"
+authors = ["deciduously <github@deciduously.com>"]
+publish = false
+description = "Database backend for drat"
+homepage = "http://deciduously.com/drat"
+repository = "https://github.com/deciduously/drats"
+readme = "README.md"
+keywords = ["sqlite", "http", "server"]
+license = "MIT"
+
+[dependencies]
+
+env_logger = "0.5.2"
+log = "0.4.1"
+rusqlite = "0.13.0"
